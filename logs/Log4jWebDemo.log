@@ -1,0 +1,1 @@
+INFO    2018-11-02 10:09:27,946 ["http-bio-8080"-exec-6] com.Controller.LoginServlet  - This is a logging statement from log4j

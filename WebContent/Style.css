@@ -1,0 +1,97 @@
+@import "http://fonts.googleapis.com/css?family=Raleway";
+
+body {
+	font-family: 'Raleway', sans-serif;
+	background: url("images/creed.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-attachment: fixed;
+	height: 500px;
+}
+
+div#first {
+	width: 50%;
+	height: auto;
+	margin: 50px auto 0;
+	padding: 50px;
+	background-color: #d1d5d8;
+	color: #333;
+	border: 2px solid #C2D6FF;
+	border-radius: 40px 0 40px 0
+}
+
+label {
+	font-size: 15px;
+	font-weight: 700
+}
+
+form {
+	text-align: center;
+}
+
+input {
+	background-repeat: no-repeat;
+	background-position: 6px;
+	border: 1px solid #DADADA;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 35px;
+	width: 50%;
+	height: 30px;
+	font-size: 14px;
+	box-shadow: 0 0 10px;
+	-webkit-box-shadow: 0 0 10px;
+	/* For I.E */
+	-moz-box-shadow: 0 0 10px;
+	/* For Mozilla Web Browser */
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	/* For I.E */
+	-moz-border-radius: 5px /* For Mozilla Web Browser */
+}
+
+input[type="submit"] {
+	background-color: #2F4F4F;
+	border-radius: 5px;
+	border: none;
+	padding-left: 35px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #949494;
+	font-size: 16px;
+	width: 40%;
+}
+
+input[type="submit"]:hover {
+	background-color: #008080;
+}
+
+tableMargin {
+	margin: 100px;
+}
+
+table {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+table td,table th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+table tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+table tr:hover {
+	background-color: #d1d5d8;
+}
+
+table th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #708090;
+	color: white;
+}
